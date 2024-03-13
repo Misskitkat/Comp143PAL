@@ -9,4 +9,5 @@ instead of needing to go back through and predict it again.
 
 Code by: Katie Boscombe
 Email: kboscombe@student.bridgew.edu
+Resource: Python Crash Course 3rd Edition
 """
