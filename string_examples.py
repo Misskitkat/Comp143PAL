@@ -59,3 +59,16 @@ print('A quote: "(insert famous quote here)"')
 # the double quotes are needed when the print statement requires a single quote and vice versa
 
 
+string_to_print = "hello world "
+print(string_to_print*3)
+
+string_divider = "--"
+print(string_divider*80)
+
+print("(questions for quiz go here [example])")
+
+print("\ta. answer 1")
+print("b. \n answer 2")
+
+print("Hello world\n"
+      "\thello world\n")
