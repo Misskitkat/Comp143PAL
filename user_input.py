@@ -34,3 +34,4 @@ while i <= number:
     i += 1
 print(sum)
 
+
