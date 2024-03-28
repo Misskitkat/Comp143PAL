@@ -53,6 +53,8 @@ print(meals['snack'])
 print(meals['snack'][0])
 # you can access those the same type of way you do when you index into a list/tuple/etc
 
+meals.update({'snack': 'snack'})
+
 # another example with a for loop
 favorite_lanuages = {
     'tom' : {'python', 'java'},
@@ -69,3 +71,25 @@ for name, languages in favorite_lanuages.items():
 # this way you can print the key name, and values, and the values separately and manipulate how they
 # print to the terminal
 
+print(meals)
+
+
+meals = {'breakfast': 'bagel',
+         'lunch': 'sandwich',
+         'dinner': 'take-out'}
+
+answer_is = ('yes', 'no', 'yes')
+i = 0
+score = 0
+for meal, food in meals.items():
+    print(f"\n{meal.title()} is:")
+    print(f"\n{food}")
+    answer = input("Do you like that meal?")
+    print(answer)
+    if answer_is[i] == answer:
+        print("Glad you have some sense in meals.")
+        score+=1
+    else:
+        print("Someone needs to change their preferences")
+    i+=1
+print(f"You have {score} correct preferences.")

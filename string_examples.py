@@ -7,7 +7,7 @@ Feel free to comment lines out so that you can see what each line does on its ow
 comment variables you are actively using.
 (Use the # symbol to comment)
 
-Feel free to try some of these out on your own or use them as reference for future python or coding projects in
+Feel free to try some of these out on your own or use them as a reference for future python or coding projects in
 general.
 """
 
@@ -72,3 +72,18 @@ print("b. \n answer 2")
 
 print("Hello world\n"
       "\thello world\n")
+
+
+# add continue/break
+# continue goes to top of loop and doesnt do code after
+# break breaks it out of the entire loop
+
+for i in range(0,10):
+      if (i == 5):
+            break
+      else:
+            print(f'{i} is not 5+')
+            print("before continue")
+            continue
+            print("after continue")
+
