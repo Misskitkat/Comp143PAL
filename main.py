@@ -17,3 +17,8 @@ Code by: Katie Boscombe
 Email: kboscombe@student.bridgew.edu
 Resource: Python Crash Course 3rd Edition
 """
+
+
+import functions
+
+functions.hello_world()
