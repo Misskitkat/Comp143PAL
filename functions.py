@@ -19,10 +19,10 @@ def add_num(num1,num2):
 
 #add_num(5,7)
 
-taskList = [[1,"make bed", "not completed"], [2,"eat breakfast", "completed"]]
+taskList = [[1,"make bed", "pending"], [2,"eat breakfast", "pending"]]
 taskList[0][2] = "completed"
 user_input = input("Task?: ")
-taskList.append([1,user_input,"not completed"])
+taskList.append([3,user_input,"pending"])
 
 for i in taskList:
     print(i[0], i[1], i[2])
